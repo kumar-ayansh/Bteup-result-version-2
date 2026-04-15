@@ -1,0 +1,388 @@
+2026-03-21 03:13:55,431 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 03:13:55,432 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 03:13:55,436 [INFO]  * Restarting with stat
+2026-03-21 03:13:57,591 [WARNING]  * Debugger is active!
+2026-03-21 03:13:57,613 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 03:14:12,599 [INFO] 127.0.0.1 - - [21/Mar/2026 03:14:12] "GET / HTTP/1.1" 200 -
+2026-03-21 03:14:13,637 [INFO] 127.0.0.1 - - [21/Mar/2026 03:14:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-21 03:14:43,804 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-21 03:14:44,490 [INFO] [LIVE FETCH] E25166135500015 → Success
+2026-03-21 03:14:44,554 [INFO] 127.0.0.1 - - [21/Mar/2026 03:14:44] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:15:56,433 [INFO] 127.0.0.1 - - [21/Mar/2026 03:15:56] "GET / HTTP/1.1" 200 -
+2026-03-21 03:17:17,797 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:17:17,807 [INFO] 127.0.0.1 - - [21/Mar/2026 03:17:17] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:24:51,595 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 03:24:51,596 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 03:24:51,600 [INFO]  * Restarting with stat
+2026-03-21 03:24:54,158 [WARNING]  * Debugger is active!
+2026-03-21 03:24:54,187 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 03:25:01,624 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:25:01,694 [INFO] 127.0.0.1 - - [21/Mar/2026 03:25:01] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:25:52,838 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:25:52,845 [INFO] 127.0.0.1 - - [21/Mar/2026 03:25:52] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:30:59,669 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 03:30:59,670 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 03:30:59,674 [INFO]  * Restarting with stat
+2026-03-21 03:31:02,486 [WARNING]  * Debugger is active!
+2026-03-21 03:31:02,533 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 03:31:09,556 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:31:09,615 [INFO] 127.0.0.1 - - [21/Mar/2026 03:31:09] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:31:12,639 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:31:12,644 [INFO] 127.0.0.1 - - [21/Mar/2026 03:31:12] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:37:40,847 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 03:37:40,848 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 03:37:40,853 [INFO]  * Restarting with stat
+2026-03-21 03:37:43,698 [WARNING]  * Debugger is active!
+2026-03-21 03:37:43,744 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 03:37:45,596 [INFO] 127.0.0.1 - - [21/Mar/2026 03:37:45] "GET / HTTP/1.1" 200 -
+2026-03-21 03:37:45,608 [INFO] 127.0.0.1 - - [21/Mar/2026 03:37:45] "GET / HTTP/1.1" 200 -
+2026-03-21 03:38:09,833 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:38:09,896 [INFO] 127.0.0.1 - - [21/Mar/2026 03:38:09] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:52:57,252 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 03:52:57,254 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 03:52:57,258 [INFO]  * Restarting with stat
+2026-03-21 03:52:59,775 [WARNING]  * Debugger is active!
+2026-03-21 03:52:59,809 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 03:53:40,238 [INFO] 127.0.0.1 - - [21/Mar/2026 03:53:40] "GET / HTTP/1.1" 200 -
+2026-03-21 03:53:40,983 [INFO] 127.0.0.1 - - [21/Mar/2026 03:53:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-21 03:54:07,224 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-21 03:54:07,685 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTM1NTAwMDE3&id2=MTUvMDcvMjAwOA==
+2026-03-21 03:54:07,695 [INFO] 127.0.0.1 - - [21/Mar/2026 03:54:07] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:54:09,685 [INFO] 127.0.0.1 - - [21/Mar/2026 03:54:09] "GET / HTTP/1.1" 200 -
+2026-03-21 03:54:30,392 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-21 03:54:30,793 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTU1MDAwMTU=&id2=MTUvMDcvMjAwOA==
+2026-03-21 03:54:30,804 [INFO] 127.0.0.1 - - [21/Mar/2026 03:54:30] "POST /generate HTTP/1.1" 200 -
+2026-03-21 03:54:33,645 [INFO] 127.0.0.1 - - [21/Mar/2026 03:54:33] "GET / HTTP/1.1" 200 -
+2026-03-21 03:54:56,225 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 03:54:56,275 [INFO] 127.0.0.1 - - [21/Mar/2026 03:54:56] "POST /generate HTTP/1.1" 200 -
+2026-03-21 11:31:25,744 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 11:31:25,751 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 11:31:25,755 [INFO]  * Restarting with stat
+2026-03-21 11:31:27,908 [WARNING]  * Debugger is active!
+2026-03-21 11:31:27,929 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 11:31:37,181 [INFO] 127.0.0.1 - - [21/Mar/2026 11:31:37] "GET / HTTP/1.1" 200 -
+2026-03-21 11:32:01,291 [INFO] [CACHE HIT] E25166135500015
+2026-03-21 11:32:01,349 [INFO] 127.0.0.1 - - [21/Mar/2026 11:32:01] "POST /generate HTTP/1.1" 200 -
+2026-03-21 15:52:04,027 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.215.66.166:5000
+2026-03-21 15:52:04,028 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 15:52:04,033 [INFO]  * Restarting with stat
+2026-03-21 15:52:06,171 [WARNING]  * Debugger is active!
+2026-03-21 15:52:06,205 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 15:52:30,272 [ERROR] 10.215.66.166 - - [21/Mar/2026 15:52:30] code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x8fZÃ©\x02\x0b')
+2026-03-21 15:52:30,273 [INFO] 10.215.66.166 - - [21/Mar/2026 15:52:30] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x8fZÃ©\x02\x0b[0m" 400 -
+2026-03-21 15:52:30,288 [ERROR] 10.215.66.166 - - [21/Mar/2026 15:52:30] code 400, message Bad request version ('cNwÁ§\x8f\x04Â6\x03dª\x87Eì\x93[¬É')
+2026-03-21 15:52:30,290 [INFO] 10.215.66.166 - - [21/Mar/2026 15:52:30] "[31m[1m\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03DR¡{;{8B\x92\\n\x88+»s\x8f;Ð®ú&\x09± ÿ\x96CÛËXëë g|à\x98'\x06vÅ\x1c×¡\x8e"hí@Ü S\x90ÈÚlýæ\x08e±:Õ\x03Y\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x8a\x8a\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1þ\x0d\x00º\x00\x00\x01\x00\x01\x14\x00 }\x02bÏZuÜ í×Éz\x98\x99jü¥]e\x8f±\x8cæ>k\x9e<\x1e@®¡u\x00\x90\x83\x8a\x99Ï\x08^È×á³ï¬Pz\x84å\x1aùp[¢MÊ2\x19_«\x84\x19qÍ,\x7fÙ\x18B~j$\x9a¶Ð@Ô\x0fÊ\x9e+âo´r\x8cê\x96~ÖÌ¡d\x04[Äç×\x02\x85\x1bD\x88÷Ö\x1bMvÆXÜù9|Âc$\x9f\x9e\x1fSßOÊÅnêÉj\x00í&ô\x94\x13ï\x92\x89e\x91"¾ó¾/\x89O?Ã4Ììm\x1c\x04ÕÇìAþÉ\x09\x8cÕ\x8dñçð\x81¡\x1c\x81\x8b\x84\x89\x05y\x003\x04ï\x04ízz\x00\x01\x00\x11ì\x04À/\x07&\x11G.\x9dK\x1c{¹l\x90psÜ©Ç\x1eGL\x7fò+è¤+0d\x9bhÐ¤Î ¾iS\x11Å\x90\x9bv"\x9dI1\x15\x1fÈ \x19z\x10_º\x06\x85cNwÁ§\x8f\x04Â6\x03dª\x87Eì\x93[¬É[0m" 400 -
+2026-03-21 15:52:32,329 [INFO] 10.215.66.166 - - [21/Mar/2026 15:52:32] "GET / HTTP/1.1" 200 -
+2026-03-21 15:52:33,477 [INFO] 10.215.66.166 - - [21/Mar/2026 15:52:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-21 16:13:41,428 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.215.66.166:5000
+2026-03-21 16:13:41,429 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 16:13:41,436 [INFO]  * Restarting with stat
+2026-03-21 16:13:43,584 [WARNING]  * Debugger is active!
+2026-03-21 16:13:43,641 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 16:14:04,145 [INFO] 10.215.66.166 - - [21/Mar/2026 16:14:04] "GET / HTTP/1.1" 200 -
+2026-03-21 16:14:30,158 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-21 16:14:30,664 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTIzMTY2MTM0MTAwMDUy&id2=MjkvMDIvMjAwNg==
+2026-03-21 16:14:30,696 [INFO] 10.215.66.166 - - [21/Mar/2026 16:14:30] "POST /generate HTTP/1.1" 200 -
+2026-03-21 16:14:32,386 [INFO] 10.215.66.166 - - [21/Mar/2026 16:14:32] "GET / HTTP/1.1" 200 -
+2026-03-21 18:21:26,919 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-21 18:21:26,920 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-21 18:21:26,926 [INFO]  * Restarting with stat
+2026-03-21 18:21:29,321 [WARNING]  * Debugger is active!
+2026-03-21 18:21:29,360 [INFO]  * Debugger PIN: 143-767-285
+2026-03-21 18:21:57,730 [INFO] 192.0.0.4 - - [21/Mar/2026 18:21:57] "GET / HTTP/1.1" 200 -
+2026-03-21 18:21:58,672 [INFO] 192.0.0.4 - - [21/Mar/2026 18:21:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-22 10:00:29,395 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-22 10:00:29,397 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-22 10:00:29,403 [INFO]  * Restarting with stat
+2026-03-22 10:00:31,604 [WARNING]  * Debugger is active!
+2026-03-22 10:00:31,650 [INFO]  * Debugger PIN: 143-767-285
+2026-03-22 10:00:40,242 [INFO] 192.0.0.4 - - [22/Mar/2026 10:00:40] "GET / HTTP/1.1" 200 -
+2026-03-22 10:01:01,324 [INFO] [CACHE HIT] E25166135500015
+2026-03-22 10:01:01,390 [INFO] 192.0.0.4 - - [22/Mar/2026 10:01:01] "POST /generate HTTP/1.1" 200 -
+2026-03-22 10:01:42,896 [INFO] 192.0.0.4 - - [22/Mar/2026 10:01:42] "GET / HTTP/1.1" 200 -
+2026-03-22 10:36:52,523 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-22 10:36:52,525 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-22 10:36:52,530 [INFO]  * Restarting with stat
+2026-03-22 10:36:54,788 [WARNING]  * Debugger is active!
+2026-03-22 10:36:54,838 [INFO]  * Debugger PIN: 143-767-285
+2026-03-22 10:37:06,376 [INFO] 192.0.0.4 - - [22/Mar/2026 10:37:06] "GET / HTTP/1.1" 200 -
+2026-03-22 10:37:06,612 [INFO] 192.0.0.4 - - [22/Mar/2026 10:37:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-22 10:37:10,171 [INFO] 192.0.0.4 - - [22/Mar/2026 10:37:10] "GET / HTTP/1.1" 200 -
+2026-03-22 10:37:31,858 [INFO] [CACHE HIT] E25166135500015
+2026-03-22 10:37:31,909 [INFO] 192.0.0.4 - - [22/Mar/2026 10:37:31] "POST /generate HTTP/1.1" 200 -
+2026-03-22 10:38:20,649 [INFO] 192.0.0.4 - - [22/Mar/2026 10:38:20] "GET / HTTP/1.1" 200 -
+2026-03-22 10:38:39,669 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-22 10:38:40,224 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTMyMDAwNDI=&id2=MjcvMTEvMjAwOQ==
+2026-03-22 10:38:40,235 [INFO] 192.0.0.4 - - [22/Mar/2026 10:38:40] "POST /generate HTTP/1.1" 200 -
+2026-03-22 10:38:59,041 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-22 10:38:59,042 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-22 10:38:59,045 [INFO]  * Restarting with stat
+2026-03-22 10:39:01,338 [WARNING]  * Debugger is active!
+2026-03-22 10:39:01,360 [INFO]  * Debugger PIN: 143-767-285
+2026-03-22 10:39:10,922 [INFO] 127.0.0.1 - - [22/Mar/2026 10:39:10] "GET / HTTP/1.1" 200 -
+2026-03-22 10:39:11,163 [INFO] 127.0.0.1 - - [22/Mar/2026 10:39:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-22 10:39:14,191 [INFO] 127.0.0.1 - - [22/Mar/2026 10:39:14] "GET / HTTP/1.1" 200 -
+2026-03-22 10:39:39,460 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-22 10:39:40,247 [INFO] [LIVE FETCH] E25166132200042 → Success
+2026-03-22 10:39:40,295 [INFO] 127.0.0.1 - - [22/Mar/2026 10:39:40] "POST /generate HTTP/1.1" 200 -
+2026-03-22 10:42:23,501 [INFO] 127.0.0.1 - - [22/Mar/2026 10:42:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-22 11:17:28,648 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-22 11:17:28,649 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-22 11:17:28,652 [INFO]  * Restarting with stat
+2026-03-22 11:17:30,747 [WARNING]  * Debugger is active!
+2026-03-22 11:17:30,768 [INFO]  * Debugger PIN: 143-767-285
+2026-03-22 11:18:02,106 [INFO] 192.0.0.4 - - [22/Mar/2026 11:18:02] "GET / HTTP/1.1" 200 -
+2026-03-22 11:18:02,367 [INFO] 192.0.0.4 - - [22/Mar/2026 11:18:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-22 11:18:58,098 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-22 11:18:58,587 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTM1NTAwMDEz&id2=MTAvMDcvMjAwOQ==
+2026-03-22 11:18:58,597 [INFO] 192.0.0.4 - - [22/Mar/2026 11:18:58] "POST /generate HTTP/1.1" 200 -
+2026-03-22 11:19:00,095 [INFO] 192.0.0.4 - - [22/Mar/2026 11:19:00] "GET / HTTP/1.1" 200 -
+2026-03-22 11:19:26,587 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-22 11:19:27,064 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTM1NTAwMDEz&id2=MTAvMDcvMjAwOQ==
+2026-03-22 11:19:27,074 [INFO] 192.0.0.4 - - [22/Mar/2026 11:19:27] "POST /generate HTTP/1.1" 200 -
+2026-03-22 11:19:33,767 [INFO] 192.0.0.4 - - [22/Mar/2026 11:19:33] "GET / HTTP/1.1" 200 -
+2026-03-22 11:20:37,037 [INFO] [CACHE HIT] E25166135500015
+2026-03-22 11:20:37,077 [INFO] 192.0.0.4 - - [22/Mar/2026 11:20:37] "POST /generate HTTP/1.1" 200 -
+2026-03-22 11:22:09,188 [INFO] 192.0.0.4 - - [22/Mar/2026 11:22:09] "GET / HTTP/1.1" 200 -
+2026-03-22 11:22:26,726 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-22 11:22:27,400 [INFO] [LIVE FETCH] E25166135500012 → Success
+2026-03-22 11:22:27,409 [INFO] 192.0.0.4 - - [22/Mar/2026 11:22:27] "POST /generate HTTP/1.1" 200 -
+2026-03-22 11:23:21,026 [INFO] [CACHE HIT] E25166135500012
+2026-03-22 11:23:21,030 [INFO] 192.0.0.4 - - [22/Mar/2026 11:23:21] "POST /generate HTTP/1.1" 200 -
+2026-03-23 11:10:20,158 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-23 11:10:20,160 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-23 11:10:20,166 [INFO]  * Restarting with stat
+2026-03-23 11:10:22,591 [WARNING]  * Debugger is active!
+2026-03-23 11:10:22,629 [INFO]  * Debugger PIN: 143-767-285
+2026-03-23 11:10:35,555 [ERROR] 192.0.0.4 - - [23/Mar/2026 11:10:35] code 400, message Bad request version ('\x1bvqÁ#\x00Í$ëAýòª[&ÌðBZ\x04\x99Nôd>;\x97Lv©¯SD@Ç\x96¯¨\x19\x05;\x89½\x01ò5?×bª8\x114\x08z\x9cvXÿ\x8a\x8fqÜ«Úº¡')
+2026-03-23 11:10:35,557 [INFO] 192.0.0.4 - - [23/Mar/2026 11:10:35] "[31m[1m\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x074\x0cû\x8aý¿Kn\x8bm-Y}¤#\x08Ii\x88\x0f\x8f\x8c«Ùæ\x17Ê3rú¯ ²l®Ò\x8d\x1aO& |F¸ÏXÍ?ßÃ"oïEÇÅ@;\x99b\x90Ü^¬\x00 êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x8a\x8a\x00\x00ÿ\x01\x00\x01\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00\x17\x00\x00\x00\x10\x00\x0e\x00\x0c\x02h2\x08http/1.1DÍ\x00\x05\x00\x03\x02h2\x00\x1b\x00\x03\x02\x00\x02\x00\x05\x00\x05\x01\x00\x00\x00\x00\x003\x04ï\x04íÚÚ\x00\x01\x00\x11ì\x04Àu\x08\x8e¨ºE\x1f\x02lØQ\x07\x939\x11m \x9e\x02"§\x8a³£s\x11\x80ßFw\x82é\x7f{+\x00ý\x98_awx[\x08\x90àV¾\x01fn¡\x90%\x9e!\x98¤|e\x0cìÏ7;2\x17Ùw­F=ª\x965Ï5¿£\x98Y\x17\x89ºà@ F26Û¹\x87\x9d¹\x18\x15Â?\x88b¹P\x85\x1bvqÁ#\x00Í$ëAýòª[&ÌðBZ\x04\x99Nôd>;\x97Lv©¯SD@Ç\x96¯¨\x19\x05;\x89½\x01ò5?×bª8\x114\x08z\x9cvXÿ\x8a\x8fqÜ«Úº¡[0m" 400 -
+2026-03-23 11:10:35,569 [ERROR] 192.0.0.4 - - [23/Mar/2026 11:10:35] code 400, message Bad request version ('x\x13"ÝYG6\x93\x19\x0epß&]ÝCÇá\x9aÌeþZÕ\x92_\x88¿e\x8aÖ\x8cyL3\x93ØÀ')
+2026-03-23 11:10:35,571 [INFO] 192.0.0.4 - - [23/Mar/2026 11:10:35] "[31m[1m\x16\x03\x01\x06À\x01\x00\x06¼\x03\x038\x17ôñ\x8fS·\x83ÚÏÝCïAµþÈÄÂý\x9a1Ã¡8»×þ\x88gÀ\x80 'ñQ\x11-¾&öµÞs\x8fÍÉÖ\x93m\x15ä¬;SK\x10Ê\x98^\x04\x1d\x0b\x9fd\x00 ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Súú\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01þ\x0d\x00Ú\x00\x00\x01\x00\x01\x8e\x00 ûç\x81\x04£¤QÏtþtð\x03À¬·:à\x82\x0d:¾}â\x00Ò\x9f÷\x01ý1\\\x00°\x9cc\x90ù\x00ZL\x93â\x03bpäM\x80\x9e&æ\x8fÁT5W\x91ãc\x11g\x8cf x\x13"ÝYG6\x93\x19\x0epß&]ÝCÇá\x9aÌeþZÕ\x92_\x88¿e\x8aÖ\x8cyL3\x93ØÀ[0m" 400 -
+2026-03-23 11:10:37,310 [INFO] 192.0.0.4 - - [23/Mar/2026 11:10:37] "GET / HTTP/1.1" 200 -
+2026-03-23 11:10:37,845 [INFO] 192.0.0.4 - - [23/Mar/2026 11:10:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-23 11:10:41,782 [INFO] 192.0.0.4 - - [23/Mar/2026 11:10:41] "GET / HTTP/1.1" 200 -
+2026-03-23 11:11:19,824 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-23 11:11:20,572 [ERROR] HTTP error: 500 Server Error: Internal Server Error for url: https://result.bteexam.com/Odd_Semester/main/result.aspx?id=RTI1MTY2MTM1NTAwMzc=&id2=MDUvMDEvMjAwNA==
+2026-03-23 11:11:20,587 [INFO] 192.0.0.4 - - [23/Mar/2026 11:11:20] "POST /generate HTTP/1.1" 200 -
+2026-03-23 11:11:24,828 [INFO] 192.0.0.4 - - [23/Mar/2026 11:11:24] "GET / HTTP/1.1" 200 -
+2026-03-23 11:11:56,140 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-03-23 11:11:56,868 [INFO] [LIVE FETCH] E25166135500065 → Success
+2026-03-23 11:11:56,916 [INFO] 192.0.0.4 - - [23/Mar/2026 11:11:56] "POST /generate HTTP/1.1" 200 -
+2026-03-23 11:14:00,446 [INFO] [CACHE HIT] E25166135500065
+2026-03-23 11:14:00,451 [INFO] 192.0.0.4 - - [23/Mar/2026 11:14:00] "POST /generate HTTP/1.1" 200 -
+2026-03-27 08:46:43,337 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-03-27 08:46:43,339 [INFO] [33mPress CTRL+C to quit[0m
+2026-03-27 08:46:43,344 [INFO]  * Restarting with stat
+2026-03-27 08:46:45,460 [WARNING]  * Debugger is active!
+2026-03-27 08:46:45,501 [INFO]  * Debugger PIN: 818-296-145
+2026-03-27 08:48:26,045 [INFO] 127.0.0.1 - - [27/Mar/2026 08:48:26] "GET / HTTP/1.1" 200 -
+2026-03-27 08:48:27,078 [INFO] 127.0.0.1 - - [27/Mar/2026 08:48:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-27 08:49:46,578 [INFO] 192.0.0.4 - - [27/Mar/2026 08:49:46] "GET / HTTP/1.1" 200 -
+2026-03-27 08:49:47,967 [INFO] 192.0.0.4 - - [27/Mar/2026 08:49:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-27 08:50:22,602 [INFO] [CACHE HIT] E25166135500015
+2026-03-27 08:50:22,650 [INFO] 192.0.0.4 - - [27/Mar/2026 08:50:22] "POST /generate HTTP/1.1" 200 -
+2026-04-01 19:29:03,023 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-01 19:29:03,025 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-01 19:29:03,029 [INFO]  * Restarting with stat
+2026-04-01 19:29:05,099 [WARNING]  * Debugger is active!
+2026-04-01 19:29:05,177 [INFO]  * Debugger PIN: 143-767-285
+2026-04-01 19:29:30,615 [INFO] 127.0.0.1 - - [01/Apr/2026 19:29:30] "GET / HTTP/1.1" 200 -
+2026-04-01 19:29:32,836 [INFO] 127.0.0.1 - - [01/Apr/2026 19:29:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-02 12:25:59,392 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-02 12:25:59,394 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-02 12:25:59,408 [INFO]  * Restarting with stat
+2026-04-02 12:26:02,661 [WARNING]  * Debugger is active!
+2026-04-02 12:26:02,707 [INFO]  * Debugger PIN: 130-174-600
+2026-04-02 12:26:03,602 [INFO] 127.0.0.1 - - [02/Apr/2026 12:26:03] "GET / HTTP/1.1" 200 -
+2026-04-02 12:26:04,984 [INFO] 127.0.0.1 - - [02/Apr/2026 12:26:04] "GET / HTTP/1.1" 200 -
+2026-04-02 12:26:32,063 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-02 12:26:32,821 [INFO] [LIVE FETCH] E25166135500022 → Success
+2026-04-02 12:26:32,876 [INFO] 127.0.0.1 - - [02/Apr/2026 12:26:32] "POST /generate HTTP/1.1" 200 -
+2026-04-04 12:16:58,298 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2026-04-04 12:16:58,299 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-04 12:16:58,304 [INFO]  * Restarting with stat
+2026-04-04 12:17:00,524 [WARNING]  * Debugger is active!
+2026-04-04 12:17:00,570 [INFO]  * Debugger PIN: 130-174-600
+2026-04-04 12:17:08,376 [INFO] 127.0.0.1 - - [04/Apr/2026 12:17:08] "GET / HTTP/1.1" 200 -
+2026-04-04 12:17:08,607 [INFO] 127.0.0.1 - - [04/Apr/2026 12:17:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-04 12:17:28,769 [INFO] [CACHE HIT] E25166135500015
+2026-04-04 12:17:28,823 [INFO] 127.0.0.1 - - [04/Apr/2026 12:17:28] "POST /generate HTTP/1.1" 200 -
+2026-04-04 12:49:43,489 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2026-04-04 12:49:43,491 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-04 12:49:43,495 [INFO]  * Restarting with stat
+2026-04-04 12:49:45,688 [WARNING]  * Debugger is active!
+2026-04-04 12:49:45,732 [INFO]  * Debugger PIN: 130-174-600
+2026-04-04 12:49:54,108 [INFO] 127.0.0.1 - - [04/Apr/2026 12:49:54] "GET / HTTP/1.1" 200 -
+2026-04-04 12:50:10,701 [INFO] [CACHE HIT] E25166135500015
+2026-04-04 12:50:10,752 [INFO] 127.0.0.1 - - [04/Apr/2026 12:50:10] "POST /generate HTTP/1.1" 200 -
+2026-04-04 13:09:36,884 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2026-04-04 13:09:36,885 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-04 13:09:36,889 [INFO]  * Restarting with stat
+2026-04-04 13:09:39,071 [WARNING]  * Debugger is active!
+2026-04-04 13:09:39,094 [INFO]  * Debugger PIN: 130-174-600
+2026-04-04 13:09:47,102 [INFO] 127.0.0.1 - - [04/Apr/2026 13:09:47] "GET / HTTP/1.1" 200 -
+2026-04-04 13:10:18,351 [INFO] [CACHE HIT] E25166135500015
+2026-04-04 13:10:18,403 [INFO] 127.0.0.1 - - [04/Apr/2026 13:10:18] "POST /generate HTTP/1.1" 200 -
+2026-04-04 13:16:21,961 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+2026-04-04 13:16:21,962 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-04 13:16:21,966 [INFO]  * Restarting with stat
+2026-04-04 13:16:24,113 [WARNING]  * Debugger is active!
+2026-04-04 13:16:24,133 [INFO]  * Debugger PIN: 130-174-600
+2026-04-04 13:16:33,883 [INFO] 127.0.0.1 - - [04/Apr/2026 13:16:33] "GET / HTTP/1.1" 200 -
+2026-04-04 13:17:07,483 [INFO] [CACHE HIT] E25166135500015
+2026-04-04 13:17:07,545 [INFO] 127.0.0.1 - - [04/Apr/2026 13:17:07] "POST /generate HTTP/1.1" 200 -
+2026-04-04 13:52:52,152 [INFO] 127.0.0.1 - - [04/Apr/2026 13:52:52] "GET / HTTP/1.1" 200 -
+2026-04-04 13:52:52,872 [INFO] 127.0.0.1 - - [04/Apr/2026 13:52:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-04 13:53:36,231 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-04 13:53:36,256 [WARNING] Connection error on attempt 1
+2026-04-04 13:53:38,257 [INFO] Fetch attempt 2/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-04 13:53:38,272 [WARNING] Connection error on attempt 2
+2026-04-04 13:53:42,273 [INFO] Fetch attempt 3/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-04 13:53:42,308 [WARNING] Connection error on attempt 3
+2026-04-04 13:53:42,313 [INFO] 127.0.0.1 - - [04/Apr/2026 13:53:42] "POST /generate HTTP/1.1" 200 -
+2026-04-04 13:53:46,968 [INFO] 127.0.0.1 - - [04/Apr/2026 13:53:46] "GET / HTTP/1.1" 200 -
+2026-04-04 13:54:01,541 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-04 13:54:03,233 [INFO] [LIVE FETCH] E25166135500003 → Success
+2026-04-04 13:54:03,246 [INFO] 127.0.0.1 - - [04/Apr/2026 13:54:03] "POST /generate HTTP/1.1" 200 -
+2026-04-04 13:56:34,470 [INFO] 127.0.0.1 - - [04/Apr/2026 13:56:34] "GET / HTTP/1.1" 200 -
+2026-04-04 14:02:05,816 [INFO] 127.0.0.1 - - [04/Apr/2026 14:02:05] "GET / HTTP/1.1" 200 -
+2026-04-04 14:02:35,518 [INFO] Fetch attempt 1/3 → https://result.bteexam.com/Odd_Semester/main/result.aspx?id=...
+2026-04-04 14:02:36,101 [INFO] [LIVE FETCH] E25166134100040 → Success
+2026-04-04 14:02:36,112 [INFO] 127.0.0.1 - - [04/Apr/2026 14:02:36] "POST /generate HTTP/1.1" 200 -
+2026-04-04 14:07:52,785 [INFO] 127.0.0.1 - - [04/Apr/2026 14:07:52] "GET / HTTP/1.1" 200 -
+2026-04-04 14:08:18,632 [INFO] [CACHE HIT] E25166135500003
+2026-04-04 14:08:18,636 [INFO] 127.0.0.1 - - [04/Apr/2026 14:08:18] "POST /generate HTTP/1.1" 200 -
+2026-04-04 14:08:51,124 [INFO] 127.0.0.1 - - [04/Apr/2026 14:08:51] "GET / HTTP/1.1" 200 -
+2026-04-04 14:09:07,095 [INFO] [CACHE HIT] E25166135500015
+2026-04-04 14:09:07,100 [INFO] 127.0.0.1 - - [04/Apr/2026 14:09:07] "POST /generate HTTP/1.1" 200 -
+2026-04-04 14:11:08,253 [INFO] 127.0.0.1 - - [04/Apr/2026 14:11:08] "GET / HTTP/1.1" 200 -
+2026-04-04 14:11:10,170 [INFO] 127.0.0.1 - - [04/Apr/2026 14:11:10] "GET / HTTP/1.1" 200 -
+2026-04-04 14:11:11,490 [INFO] 127.0.0.1 - - [04/Apr/2026 14:11:11] "GET / HTTP/1.1" 200 -
+2026-04-04 14:11:12,795 [INFO] 127.0.0.1 - - [04/Apr/2026 14:11:12] "GET / HTTP/1.1" 200 -
+2026-04-15 10:02:58,956 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-15 10:02:58,958 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-15 10:02:58,966 [INFO]  * Restarting with stat
+2026-04-15 10:03:01,125 [WARNING]  * Debugger is active!
+2026-04-15 10:03:01,173 [INFO]  * Debugger PIN: 129-717-781
+2026-04-15 10:03:10,788 [ERROR] 192.0.0.4 - - [15/Apr/2026 10:03:10] code 400, message Bad request version ('®\x88hÈh>JxÇÏ`H]KBÝ\x00ÎÅH|5\x9c*7zg\x15\x15\x8eNa}\x19üªÀ\x03F\x8bà\x98ì:\x95èyÉ')
+2026-04-15 10:03:10,790 [INFO] 192.0.0.4 - - [15/Apr/2026 10:03:10] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03©ê$T\x98é\x03\x85\x93gJ\x09\x85uÕ\x1a\x9a ;9\x02nh\x9fxÛÑÙÝ4\x87Ð \x14"'þ\x9eç^*Ô\x9f\x85#y\x80¸ÄÍ\x96\x89s\x96v\x81Q\x10æc%)¡óË\x00 ::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sºº\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00#\x00\x00\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04À\x8dÙ5Q'\x0d+\x99§×\x9a\x1dwhf\x87\x07^«¼Å\x0c³\x85vZGÀw\x187ã±¾\x90\x07¥%\x9dÔ11ºè\x92ZÆ2l\x97YI¤|\x02·?\x1c\x1a¦ø( Er|¨P\x9d\x9dv\x1c³ 0·*¹\x06iT\x12+%:\x91J?\x10>\x92ð\x0c®\x88hÈh>JxÇÏ`H]KBÝ\x00ÎÅH|5\x9c*7zg\x15\x15\x8eNa}\x19üªÀ\x03F\x8bà\x98ì:\x95èyÉ[0m" 400 -
+2026-04-15 10:03:10,809 [ERROR] 192.0.0.4 - - [15/Apr/2026 10:03:10] code 400, message Bad request version ('\x05gWa')
+2026-04-15 10:03:10,810 [INFO] 192.0.0.4 - - [15/Apr/2026 10:03:10] "[31m[1m\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03ø¢ÁÏ÷ªìKR£\x88V\x19À>\x95\x09Ï!\x9b\x1c·\x96ùù?j`¨_/ò \x05gWa[0m" 400 -
+2026-04-15 10:03:13,741 [INFO] 192.0.0.4 - - [15/Apr/2026 10:03:13] "GET / HTTP/1.1" 200 -
+2026-04-15 10:03:14,741 [INFO] 192.0.0.4 - - [15/Apr/2026 10:03:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-15 10:03:38,496 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:03:38,562 [INFO] 192.0.0.4 - - [15/Apr/2026 10:03:38] "POST /generate HTTP/1.1" 200 -
+2026-04-15 10:15:07,894 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-15 10:15:07,895 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-15 10:15:07,900 [INFO]  * Restarting with stat
+2026-04-15 10:15:10,041 [WARNING]  * Debugger is active!
+2026-04-15 10:15:10,079 [INFO]  * Debugger PIN: 129-717-781
+2026-04-15 10:15:37,785 [INFO] 127.0.0.1 - - [15/Apr/2026 10:15:37] "GET / HTTP/1.1" 200 -
+2026-04-15 10:16:03,180 [INFO] 127.0.0.1 - - [15/Apr/2026 10:16:03] "GET / HTTP/1.1" 200 -
+2026-04-15 10:16:04,064 [INFO] 127.0.0.1 - - [15/Apr/2026 10:16:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-15 10:16:31,102 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:16:31,163 [INFO] 127.0.0.1 - - [15/Apr/2026 10:16:31] "POST /generate HTTP/1.1" 200 -
+2026-04-15 10:16:39,358 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:16:39,361 [INFO] 127.0.0.1 - - [15/Apr/2026 10:16:39] "POST /generate HTTP/1.1" 200 -
+2026-04-15 10:16:42,726 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:16:42,729 [INFO] 127.0.0.1 - - [15/Apr/2026 10:16:42] "POST /generate HTTP/1.1" 200 -
+2026-04-15 10:22:45,875 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-15 10:22:45,875 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-15 10:22:45,879 [INFO]  * Restarting with stat
+2026-04-15 10:22:48,159 [WARNING]  * Debugger is active!
+2026-04-15 10:22:48,193 [INFO]  * Debugger PIN: 129-717-781
+2026-04-15 10:22:59,492 [INFO] 127.0.0.1 - - [15/Apr/2026 10:22:59] "GET / HTTP/1.1" 200 -
+2026-04-15 10:23:25,303 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:23:25,353 [INFO] 127.0.0.1 - - [15/Apr/2026 10:23:25] "POST /generate HTTP/1.1" 200 -
+2026-04-15 10:23:35,754 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 10:23:35,763 [INFO] 127.0.0.1 - - [15/Apr/2026 10:23:35] "POST /generate HTTP/1.1" 200 -
+2026-04-15 20:12:46,964 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.0.0.4:5000
+2026-04-15 20:12:46,966 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-15 20:12:46,972 [INFO]  * Restarting with stat
+2026-04-15 20:12:49,136 [WARNING]  * Debugger is active!
+2026-04-15 20:12:49,170 [INFO]  * Debugger PIN: 106-001-493
+2026-04-15 20:13:04,800 [INFO] 192.0.0.4 - - [15/Apr/2026 20:13:04] "GET / HTTP/1.1" 200 -
+2026-04-15 20:13:05,666 [INFO] 192.0.0.4 - - [15/Apr/2026 20:13:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-15 20:13:20,828 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 20:13:20,875 [INFO] 192.0.0.4 - - [15/Apr/2026 20:13:20] "POST /generate HTTP/1.1" 200 -
+2026-04-15 20:14:01,617 [INFO] 192.0.0.4 - - [15/Apr/2026 20:14:01] "GET / HTTP/1.1" 200 -
+2026-04-15 20:14:22,576 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 20:14:22,581 [INFO] 192.0.0.4 - - [15/Apr/2026 20:14:22] "POST /generate HTTP/1.1" 200 -
+2026-04-15 20:14:49,021 [INFO] [CACHE HIT] E25166135500015
+2026-04-15 20:14:49,029 [INFO] 192.0.0.4 - - [15/Apr/2026 20:14:49] "POST /generate HTTP/1.1" 200 -
+2026-04-15 20:15:02,637 [INFO] 192.0.0.4 - - [15/Apr/2026 20:15:02] "GET / HTTP/1.1" 200 -

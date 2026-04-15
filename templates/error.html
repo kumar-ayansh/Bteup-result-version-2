@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Error — BTEUP PRO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Syne:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --navy:#04091a; --gold:#c9973a; --gold2:#f0c96b; }
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            background: var(--navy); min-height:100dvh;
+            font-family:'Syne',sans-serif; color:#ddd6c8;
+            display:flex; flex-direction:column; align-items:center; justify-content:center;
+            padding:24px;
+            background-image: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(201,151,58,0.1), transparent);
+        }
+        .icon { font-size:64px; margin-bottom:20px; animation: bounce 1s ease infinite alternate; }
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to   { transform: translateY(-10px); }
+        }
+        h1 {
+            font-family:'Cormorant Garamond', serif;
+            font-size:36px; font-weight:700;
+            background: linear-gradient(135deg, #f0c96b, #c9973a);
+            -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+            margin-bottom:12px; text-align:center;
+        }
+        p {
+            font-size:15px; color:rgba(200,185,160,0.65);
+            text-align:center; max-width:340px; line-height:1.6;
+            margin-bottom:32px;
+        }
+        a {
+            padding:15px 32px;
+            background:linear-gradient(135deg, #b8791e, #d4922a, #f0c96b);
+            border-radius:12px; color:#1a0e00;
+            font-weight:700; font-size:13px; letter-spacing:2px; text-transform:uppercase;
+            text-decoration:none;
+            box-shadow: 0 8px 24px rgba(201,151,58,0.25);
+            transition: transform 0.2s;
+        }
+        a:hover { transform: translateY(-2px); }
+    </style>
+</head>
+<body>
+    <div class="icon">{{ icon if icon else '⚠️' }}</div>
+    <h1>Oops!</h1>
+    <p>{{ message if message else 'Something went wrong. Please try again.' }}</p>
+    <a href="/">← Go Back Home</a>
+</body>
+</html>

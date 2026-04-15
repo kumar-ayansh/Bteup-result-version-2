@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BTEUP PRO — Mobile Optimized</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #020617;
+            --card: rgba(10, 20, 45, 0.95);
+            --accent: #00d2ff;
+            --accent-glow: rgba(0, 210, 255, 0.4);
+            --text-main: #f0f9ff;
+            --text-dim: #94a3b8;
+            --border: rgba(0, 210, 255, 0.2);
+            --input-bg: rgba(2, 8, 20, 0.8);
+        }
+
+        [data-theme="light"] {
+            --bg: #f0f4f8;
+            --card: #ffffff;
+            --accent: #2563eb;
+            --accent-glow: rgba(37, 99, 235, 0.2);
+            --text-main: #1e293b;
+            --text-dim: #64748b;
+            --border: rgba(37, 99, 235, 0.1);
+            --input-bg: #f8fafc;
+        }
+
+        /* Essential Mobile Fix: Box-Sizing */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow-x: hidden; /* Prevent side scrolling */
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text-main);
+            font-family: 'Syne', sans-serif;
+            display: flex;
+            flex-direction: column;
+            transition: background 0.4s ease;
+        }
+
+        .content-wrapper {
+            flex: 1 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 15px 40px; /* Top padding for toggle button */
+            width: 100%;
+        }
+
+        /* Responsive Toggle Button */
+        .theme-toggle {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--accent);
+            padding: 8px 12px;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 10px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            z-index: 100;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        /* Responsive Card */
+        .premium-card {
+            width: 100%;
+            max-width: 380px; /* Limits size on desktop */
+            background: var(--card);
+            border-radius: 24px;
+            padding: 30px 20px; /* Reduced padding for mobile */
+            border: 1px solid var(--border);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3), 0 0 15px var(--accent-glow);
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: clamp(28px, 8vw, 36px); /* Fluid typography */
+            font-weight: 800;
+            margin-bottom: 5px;
+            background: linear-gradient(90deg, var(--accent), #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            font-size: 10px;
+            color: var(--text-dim);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+
+        .field-group {
+            text-align: left;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 6px;
+            margin-left: 4px;
+            text-transform: uppercase;
+        }
+
+        input {
+            width: 100%; /* Important: takes full width of container */
+            padding: 14px 16px;
+            background: var(--input-bg);
+            border: 1.5px solid var(--border);
+            border-radius: 12px;
+            color: var(--text-main);
+            font-family: 'Syne', sans-serif;
+            font-size: 16px; /* Prevents iOS auto-zoom on focus */
+            transition: 0.3s;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 10px var(--accent-glow);
+        }
+
+        .btn-generate {
+            width: 100%;
+            padding: 16px;
+            background: var(--accent);
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 0 8px 16px var(--accent-glow);
+            transition: 0.3s;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .btn-generate:active {
+            transform: scale(0.98);
+        }
+
+        /* Fixed Mobile Footer */
+        footer {
+            flex-shrink: 0;
+            padding: 20px 15px;
+            text-align: center;
+            font-size: 11px;
+            color: var(--text-dim);
+            border-top: 1px solid var(--border);
+            background: rgba(0,0,0,0.05);
+            width: 100%;
+        }
+        
+        .dev-name { color: var(--accent); font-weight: 700; }
+
+        /* Media Query for very small screens */
+        @media (max-width: 320px) {
+            .premium-card { padding: 20px 15px; }
+            h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        <button class="theme-toggle" id="themeToggle">
+            <span id="toggleText">🌙 DARK MODE</span>
+        </button>
+
+        <div class="premium-card">
+            <h1>BTEUP PRO</h1>
+            <p class="subtitle">Ayansh Result Portal</p>
+
+            <form action="/generate" method="POST" autocomplete="on">
+                <div class="field-group">
+                    <label for="enrollment">Enrollment Number</label>
+                    <input type="text" id="enrollment" name="enrollment" 
+                           placeholder="EXXXXXXXXXXXX" required 
+                           autocomplete="username">
+                </div>
+
+                <div class="field-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="text" id="dob" name="dob" 
+                           placeholder="DD/MM/YYYY" required 
+                           autocomplete="bday" inputmode="numeric">
+                </div>
+
+                <button type="submit" class="btn-generate">Generate Result</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        Devloped ❤️ by <span class="dev-name">Ayansh Kumar</span>
+        <div style="margin-top: 4px; opacity: 0.6;">© 2026 · SECURE PORTAL</div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('themeToggle');
+        const toggleText = document.getElementById('toggleText');
+        const body = document.body;
+
+        toggleBtn.addEventListener('click', () => {
+            if (body.getAttribute('data-theme') === 'light') {
+                body.removeAttribute('data-theme');
+                toggleText.innerText = '🌙 DARK MODE';
+            } else {
+                body.setAttribute('data-theme', 'light');
+                toggleText.innerText = '☀️ LIGHT MODE';
+            }
+        });
+
+        // Smart DOB Formatting
+        const dobInput = document.getElementById('dob');
+        dobInput.addEventListener('input', function(e) {
+            let v = this.value.replace(/\D/g,'').slice(0,8);
+            if (v.length >= 5) v = v.slice(0,2) + '/' + v.slice(2,4) + '/' + v.slice(4);
+            else if (v.length >= 3) v = v.slice(0,2) + '/' + v.slice(2);
+            this.value = v;
+        });
+    </script>
+</body>
+</html>
